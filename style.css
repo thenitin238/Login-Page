@@ -134,21 +134,17 @@
  }
 
  .login {
-    margin: 20px;
-     /* border-radius: 12px; */
-     /* position: relative; */
+     margin: 50px;
      text-align: center;
-     /* REQUIRED */
-     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
  }
 
  .login-btn {
-    width: 100%;
-    padding: 12px;
-    font-size: 18px;
-    border: none;
-    border-radius: 25px;
-    background: rgb(231, 124, 204);
+     width: 100%;
+     padding: 12px;
+     font-size: 18px;
+     border: none;
+     border-radius: 25px;
+     background: rgb(231, 124, 204);
      color: white;
      cursor: pointer;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
