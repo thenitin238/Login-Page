@@ -199,6 +199,11 @@
     background: #eee;
     cursor: pointer;
  }
+ .social-login button:hover{
+     transition: 0.2s;
+     transform: scale(1.08);
+    box-shadow: 0 0 20px #eee ;
+ }
  .register{
     text-align: center;
     margin-top: 20px;
