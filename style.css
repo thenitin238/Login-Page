@@ -1,0 +1,166 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ main {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+ }
+
+ .form {
+     height: 47vh;
+     width: 100%;
+     max-width: 380px;
+     /* Desktop size*/
+     background: white;
+     padding: 30px;
+     border-radius: 16px;
+     border: 2px solid black;
+     /* smooth animation */
+     transition:
+         transform 0.25s ease,
+         background-color 0.25s ease,
+         box-shadow 0.25s ease;
+ }
+
+ .form:hover {
+     transform: scale(1.06);
+     /* grow */
+     background-color: #a5e7f6;
+     /* slight color change */
+     box-shadow: 0 0 25px rgb(57, 55, 55);
+     /* drop shadow */
+
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ .username {
+     position: relative;
+     width: 100%;
+     margin: 15px 0;
+ }
+
+ .username input {
+
+     width: 100%;
+     padding: 14px 12px;
+     font-size: 16px;
+     border: 2px solid #777;
+     border-radius: 6px;
+     outline: none;
+ }
+
+ .username label {
+     position: absolute;
+     left: 12px;
+     top: 50%;
+     transform: translateY(-50%);
+     color: #888;
+     /* background: white; */
+     padding: 0 6px;
+     pointer-events: none;
+
+     transition:
+         top 0.25s ease,
+         font-size 0.25s ease,
+         color 0.25s ease;
+ }
+
+ .username input:hover+label,
+ .username input:focus+label,
+ .username input:valid+label {
+     top: 0;
+     font-size: 18px;
+     color: blueviolet;
+     text-shadow: 0 0 5px blueviolet;
+ }
+
+ .password {
+     position: relative;
+     width: 100%;
+     margin: 15px 0;
+ }
+
+ .password input {
+
+     width: 100%;
+     padding: 14px 12px;
+     font-size: 16px;
+     border: 2px solid #777;
+     border-radius: 6px;
+     outline: none;
+ }
+
+ .password label {
+     position: absolute;
+     left: 12px;
+     top: 50%;
+     transform: translateY(-50%);
+     color: #888;
+     /* background: white; */
+     padding: 0 6px;
+     pointer-events: none;
+
+     transition:
+         top 0.25s ease,
+         font-size 0.25s ease,
+         color 0.25s ease;
+ }
+
+ .password input:hover+label,
+ .password input:focus+label,
+ .password input:valid+label {
+     top: 0;
+     font-size: 18px;
+
+     color: blueviolet;
+     text-shadow: 0 0 5px blueviolet;
+ }
+
+ .new {
+     /* width: 100%; */
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+     font-size: 14px;
+ }
+
+ .login {
+    margin: 20px;
+     /* border-radius: 12px; */
+     /* position: relative; */
+     text-align: center;
+     /* REQUIRED */
+     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+ }
+
+ .login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background: rgb(231, 124, 204);
+     color: white;
+     cursor: pointer;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     transition:
+         background-color 0.3s ease,
+         transform 0.3s ease,
+         box-shadow 0.3s ease;
+ }
+
+ .login-btn:hover {
+     background: #0056b3;
+     transform: scale(1.08);
+     /* grow */
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+ }
