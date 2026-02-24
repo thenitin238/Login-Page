@@ -26,7 +26,9 @@
      padding: 0;
      box-sizing: border-box;
  }
-
+body{   
+    background: black;
+}
  main {
      height: 100vh;
      display: flex;
@@ -45,7 +47,7 @@
      border: 2px solid black;
      /* smooth animation */
      transition:
-         transform 0.35s ease,
+         transform 0.5s,
          background-color 0.25s ease,
          box-shadow 0.25s ease;
  }
@@ -55,7 +57,7 @@
      /* grow */
      background-color: #a5e7f6;
      /* slight color change */
-     box-shadow: 0 0 25px rgb(57, 55, 55);
+     box-shadow: 0 0 25px rgb(252, 251, 251);
      /* drop shadow */
 
  }
@@ -101,8 +103,8 @@
  .username input:valid+label {
      top: 0;
      font-size: 18px;
-     color: blueviolet;
-     text-shadow: 0 0 5px blueviolet;
+     color: rgb(112, 13, 204);
+     text-shadow: 0 0 5px rgb(105, 24, 181);
  }
 
  .password {
@@ -165,8 +167,8 @@
      padding: 12px;
      font-size: 18px;
      border: none;
-     border-radius: 25px;
-     background: rgb(231, 124, 204);
+     border-radius: 20px;
+     background: #eb27d4;
      color: white;
      cursor: pointer;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -178,9 +180,9 @@
 
  .login-btn:hover {
      background: #0056b3;
-     transform: scale(1.08);
+     transform: scale(1.06);
      /* grow */
-     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+     box-shadow: 0 0 20px rgb(0, 0, 0);
  }
  .social-login{
     text-align: center;
@@ -202,7 +204,7 @@
  .social-login button:hover{
      transition: 0.2s;
      transform: scale(1.08);
-    box-shadow: 0 0 20px #eee ;
+    box-shadow: 0 0 20px #000 ;
  }
  .register{
     text-align: center;
